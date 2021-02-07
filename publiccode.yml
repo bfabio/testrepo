@@ -1,6 +1,6 @@
 publiccodeYmlVersion: "0.2"
 
-name: Abc
+name:
 
 url: "https://github.com/italia/developers.italia.it.git"
 softwareVersion: "dev"
