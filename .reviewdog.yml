@@ -1,0 +1,4 @@
+runner:
+  publiccode-parser-go:
+    cmd: pc
+    level: error

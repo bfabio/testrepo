@@ -1,3 +1,9 @@
-FROM italia/publiccode-parser-go:latest
+FROM bfabio/publiccode-parser-go:latest
 
-ENTRYPOINT ["/pcvalidate"]
+RUN go get -u github.com/reviewdog/reviewdog/cmd/reviewdog
+
+COPY .reviewdog.yml .reviewdog.yml
+
+COPY entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
