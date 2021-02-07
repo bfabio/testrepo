@@ -1,6 +1,6 @@
 FROM bfabio/publiccode-parser-go:latest
 
-RUN go get -u github.com/reviewdog/reviewdog/cmd/reviewdog
+RUN go get -u github.com/reviewdog/reviewdog/cmd/reviewdog && rm -fr /go/pkg
 
 COPY .reviewdog.yml .reviewdog.yml
 
