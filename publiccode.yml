@@ -17,9 +17,9 @@ platforms:
 categories:
   - cloud-management
 
-developmentStatus: development
+developmentStatus: ABC
 
-softwareType: "standalone/other"
+softwareType: "standalone/othr"
 
 description:
   eng:
@@ -45,10 +45,10 @@ description:
        - Just one feature
 
 legal:
-  license: AGPL-3.0-or-later
+  license: Bad License
 
 maintenance:
-  type: "community"
+  type: "foobar"
 
   contacts:
     - name: Francesco Rossi
