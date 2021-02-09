@@ -8,6 +8,5 @@ jobs:
     - uses: ./
       with:
         publiccode: 'publiccode.yml'
-        comment-on-pr: true
       env:
         REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.REVIEWDOG_GITHUB_API_TOKEN }}
