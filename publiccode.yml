@@ -10,7 +10,7 @@ platforms:
 categories:
   - cloud-management
 
-developmentStatus: devel
+developmentStatus: development
 
 softwareType: "standalone/ot"
 
